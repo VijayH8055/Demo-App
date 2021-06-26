@@ -7,19 +7,21 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background-image: url("bw.jpg");
+  background-repeat: no-repeat repeat;
+  background-color: #fff;
   padding: 0 16px;
 }
 
 header {
-  background-color: cyan;
+  background-color: blue;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-  color: orangered;
+  color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
@@ -47,6 +49,7 @@ footer p {
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  color: red;
 }
 .note p {
   font-size: 1.1em;
